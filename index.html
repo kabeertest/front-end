@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html ng-app="springBootApp">
+  
+  <head>
+    <title>Spring Boot -Dash Boardp 3</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="includes/css/bootstrap.css">
+	<link rel="stylesheet" href="includes/css/springBoot.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+	<script src="includes/js/angular-script.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  </head>
+  
+  
+  <body ng-controller="springBootController">
+    <div class="container wrapper">
+	<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title title-color text-center">Spring Boot -Dash Board </h3>
+  </div>
+  <div class="panel-body">
+         <form class="form-horizontal">
+<fieldset>
+
+Form Name	
+
+
+Text input
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Project name">Project name</label>  
+  <div class="col-md-5">
+  <input id="Project name" name="Project name" type="text" placeholder="Project Name" class="form-control input-md">
+  <span class="help-block">please Enter Project Name</span>  
+  </div>
+</div>
+
+Textarea
+<div class="form-group">
+  <label class="col-md-4 control-label" for="XML Text Input">XML Text Input</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="XML Text Input" name="XML Text Input"> </textarea>
+  </div>
+</div>
+
+Prepended text
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedtext">Package name </label>
+  <div class="col-md-5">
+    <div class="input-group">
+      <span class="input-group-addon">com.walmart</span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="Package  name -Artifact Name " type="text" required="">
+    </div>
+    <p class="help-block">Please Enter Package name </p>
+  </div>
+</div>
+
+File Button 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">XML File Input</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
+
+Text input
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Data Base  </label>  
+  <div class="col-md-5">
+  <input id="textinput" name="textinput" type="text" placeholder="Data Base Name" class="form-control input-md">
+  <span class="help-block">Pelase Enter DB Name</span>  
+  </div>
+</div>
+
+Multiple Radios (inline)
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Database Implementation type ">Database Implementation type </label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="Database Implementation type -0">
+      <input type="radio" name="Database Implementation type " id="Database Implementation type -0" value="1" checked="checked">
+      JPA
+    </label> 
+    <label class="radio-inline" for="Database Implementation type -1">
+      <input type="radio" name="Database Implementation type " id="Database Implementation type -1" value="2">
+      others
+    </label>
+  </div>
+</div>
+
+Appended Input
+<div class="form-group">
+  <label class="col-md-4 control-label" for="appendedtext">Data Base Schema</label>
+  <div class="col-md-5">
+    <div class="input-group">
+      <input id="appendedtext" name="appendedtext" class="form-control" placeholder="Data Base Schema" type="text">
+      <span class="input-group-addon">-walmart</span>
+    </div>
+    <p class="help-block">Please Enter Database Schema</p>
+  </div>
+</div>
+Button (Double)
+<div class="form-group">
+  <label class="col-md-4 control-label" for="button1id">Action</label>
+  <div class="col-md-5">
+    <button id="button1id" name="button1id" class="btn btn-primary">Create Package</button>
+    <button id="button2id" name="button2id" class="btn btn-danger">Clear All</button>
+  </div>
+</div>
+
+
+</fieldset>
+</form>
+  </div>
+   <div class="panel-footer text-center">Spring-Boot  2016-2017</div>
+</div>
+	
+  
+
+    </div>
+  </body>
+
+</html>
